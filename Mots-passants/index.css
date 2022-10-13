@@ -82,3 +82,12 @@ a.alphabet{
     color: black;
     display: inline;
 }
+
+.etoile{
+    font-family: 'Papyrus', cursive;
+    text-align: center;
+}
+
+.titre_etoile{
+    text-align: center;
+}
