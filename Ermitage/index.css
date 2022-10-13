@@ -91,3 +91,11 @@ a.alphabet{
 .titre_etoile{
     text-align: center;
 }
+
+footer{
+    overflow: hidden;
+    margin-left: -5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
