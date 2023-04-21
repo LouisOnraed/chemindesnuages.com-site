@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(172, 224, 255);
+}
+
+div.bouton_centrer{
+    text-align: center;
+}
+
+button.mots_passants{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 70, 0);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button.mots_passants:hover{
+    background-color: rgb(255, 170, 0);
+}
+
+button.mots_passants:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+button.ermitage{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(0, 200, 255);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button.ermitage:hover{
+    background-color: rgb(0, 300, 255);
+}
+
+button.ermitage:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+button.fleurs_de_vie{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(0, 200, 0);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button.fleurs_de_vie:hover{
+    background-color: rgb(0, 300, 0);
+}
+
+button.fleurs_de_vie:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+footer {
+   position: fixed;
+   left: 7;
+   bottom: 0;
+   width: 100%;
+   color: red;
+}
+
+footer{
+    overflow: hidden;
+    margin-left: -5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Download{
+    display: inline;
+    float: right;
+}

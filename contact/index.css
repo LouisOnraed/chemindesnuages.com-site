@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(172, 224, 255);
+}
+
+div.bouton_centrer{
+    text-align: center;
+}
+
+form{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.input, textarea{
+border: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+background-color: rgba(255, 255, 255, 0.25);
+font-size: 18px;
+}
+
+footer{
+    overflow: hidden;
+    margin-left: -5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
